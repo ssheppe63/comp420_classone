@@ -1,0 +1,223 @@
+/*favicon purple color 145 122 194*/
+
+
+
+body.home {
+	margin: 0 0;
+	font-family: 'Raleway', sans-serif;
+	background: url("carousel-images/scotland_fade.jpg");
+    width: 100%;
+    height: 100%;
+	background-repeat: repeat-x; 
+
+}
+
+a, a:visited {
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+#main-frame {
+	margin: 0px 0px;
+	overflow: hidden;
+}
+
+.docked-nav {
+	height: 100%;
+	background-color: white;
+	box-shadow: 1px 0px 5px rgba(0,0,0,0.6);
+	width: 250px;
+	position: fixed;
+}
+
+.docked-nav-items {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.docked-nav-items > li{
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);	
+}
+
+.docked-nav-items >li > a:hover{
+	color: #F46036;
+	text-decoration: none;
+}
+
+.brand > img {
+	max-height: 120px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: rgb(145,122,194);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+
+.brand > h2 {
+	margin-bottom: 0;
+	color: rgb(145, 122, 194);
+}
+
+.article {
+	padding-top: 40px;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+#nav-open {
+	position: fixed;
+	top: 30px;
+	left: 50px;
+}
+
+#nav-close {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+
+.docked-nav {
+	transition: transform 0.7s ease;
+	transform: translateX(-300px);
+}
+
+.docked-nav.active {
+	transform: translateX(0px);
+}
+
+.article {
+	transition: all 0.7s ease;
+}
+
+.article.active {
+	transform: translateX(150px);
+}
+
+
+
+/*my code*/
+
+#index-image{
+	max-width: 84%;
+	margin: auto;
+}
+a.about_link{
+    color: #F46036;
+    /*text-decoration: underline;*/
+}
+
+a.about_link:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.about {
+    padding: 0px 10px 10px 20px;
+   /* border: 2px solid #73AD21;*/
+    float:right;
+}
+
+.about_image{
+    clear: both;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    padding-top: 20px;
+}
+
+.green{
+    color: #3BA99C
+}
+
+.orange{
+    color: #F46036;
+}
+
+.more_info{
+/*	margin-top:50%;*/
+    clear: both;
+    bottom: 0;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.more_info > p {
+	margin-top: 38%;
+}
+
+ul.contact{
+	list-style: none;
+	text-align: center;
+/*	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100px;*/
+}
+
+ul.contact > li {
+	padding: 10px;	
+}
+
+.home-facts > div{
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 1.1;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.home-facts > div > a{
+	color: #F46036;
+}
+
+.home-facts > div > a:hover{
+	color: black;
+    text-decoration: none;
+}
+
+#school {
+	margin-top: -25px;
+}
+
+h1.home {
+	font-size: 63px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.my-projects > div > h3 > a:hover{
+	color: #F46036;
+	text-decoration: none;
+}
+
+
+
+
+
+
+

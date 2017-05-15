@@ -1,0 +1,23 @@
+html{
+	background-color: #5AE6DC;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-top: 14%;
+	font-size: 117px;
+	color:white;
+}
+#buttons{
+	margin-top:-8%;
+}
+button {
+	background-color: #5a5f5a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 19px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

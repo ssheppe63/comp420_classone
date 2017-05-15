@@ -1,0 +1,119 @@
+a {
+	color: #979797;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+.menu-icon{
+	color:white;
+}
+
+.comments {
+	padding-left: 0px;
+	list-style: none;
+}
+
+input[type="text"]:focus {
+	outline: none;
+}
+
+input[type="text"]{
+	border: none;
+	margin-left: 10px;
+}
+
+.container {
+	margin: 60px;
+}
+
+.username {
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	color: black;
+}
+
+.username:hover {
+	color: #a9a9a9;
+	cursor: hand;
+}
+
+.timestamp {
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+
+.likes {
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.side-padding {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.hashtags {
+	color: #125688;
+}
+
+.fa-clock-o {
+	padding-right: 5px;
+}
+
+.navbar-default{
+	background-color: rgb(37,41,44);
+}
+
+.navbar .navbar-inner {
+    padding: 0;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.navbar {
+	position: relative;
+    min-height: 50px;
+    margin-bottom: 0px; 
+    border: 1px solid transparent;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+
+
+
+

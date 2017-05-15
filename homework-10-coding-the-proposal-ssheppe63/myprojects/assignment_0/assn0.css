@@ -1,0 +1,26 @@
+.header1 {
+	font-size: 50px;
+	color: orange;
+	text-align: center;
+}
+
+.header1:hover {
+	color: #870da5;
+	font-size: 100px;
+}
+
+body {
+	background-color: #d4dff4;
+	font-family: Impact, sans-serif;
+}
+
+img {
+	width: 50%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+p {
+	text-align: center
+}
